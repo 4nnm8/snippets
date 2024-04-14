@@ -1,5 +1,5 @@
 function removeDiactrics(string) {
-  string.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+  return string.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 }
 
 // USAGE:

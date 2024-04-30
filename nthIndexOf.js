@@ -26,10 +26,10 @@ Array.prototype.nthIndexOf = function(pattern, nth) {
 const arr = ["q","w","e","r","t","y","q","e"];
 
 // Get all indexes of the letter "e"
-arr.nthIndexOf("e");    // OUTPUT: [2,7]
+arr.nthIndexOf("e");    	// OUTPUT: [2,7]
 
 // Get all indexes of letter "e" and "q"
 arr.nthIndexOf(["e","q"]);	// OUTPUT: [0,2,6,7]
 
 // With a second parameter, get the index of the nth letter "q" (second one in this example)
-arr.nthIndexOf("q", 2);  // OUTPUT: 6
+arr.nthIndexOf("q", 2);  	// OUTPUT: 6

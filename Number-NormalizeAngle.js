@@ -4,4 +4,4 @@ Number.prototype.NormalizeAngle = function() {
 
 // USAGE: 
 
-(420).normalizeAngle();  // OUTPUT: 60
+(420).NormalizeAngle();  // OUTPUT: 60

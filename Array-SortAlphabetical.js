@@ -4,7 +4,4 @@ Array.prototype.SortAlphabetical = function() {
 
 // USAGE:
 
-let array = ;
-["b","a","c","u","f"].SortAlphabetical();
-
-// OUTPUT : ["a", "b", "c", "f", "u"]
+["b","a","c","u","f"].SortAlphabetical();    // OUTPUT : ["a", "b", "c", "f", "u"]

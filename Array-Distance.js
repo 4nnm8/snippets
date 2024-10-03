@@ -1,5 +1,6 @@
 Array.prototype.Distance = function(start,end) {
-  const s = this.indexOf(start), e = this.indexOf(end);
+  const s = this.indexOf(start);
+  const e = this.indexOf(end);
   return (s === -1 || e === -1) ? false : Math.abs(e - s);
 }
 
